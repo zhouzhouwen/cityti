@@ -18,7 +18,7 @@ window.TI_LANG.en = {
    "14 secret cards"
   ],
   "start": "Start the quiz",
-  "proofBase": "Free · No sign-up",
+  "proofBase": "",
   "proofCount": "<b>{n}</b> city passports stamped",
   "proofVisitors": "<b>{n}</b> travelers have stopped by",
   "lastResult": "Last time you got: ",
@@ -70,8 +70,8 @@ window.TI_LANG.en = {
   ],
   "kicker": "Your soul city",
   "kickerHidden": "You unlocked a secret type",
-  "also": "Mostly {a}, with a dash of <b>{b}</b> (you're right in the middle on {dim}).",
-  "hiddenNearest": "Your closest city right now: <b>{b}</b>",
+  "also": "You're {a}, with a streak of <b>{b}</b>: your {dim} sits right in the middle.",
+  "hiddenNearest": "Your everyday city: <b>{b}</b>",
   "secDims": "Your 5 dimensions",
   "dimHuman": "Weather",
   "dimHumanNote": "Dimension 5 is your inner weather: it doesn't change your city, only whether you're the Rainy-Day or Sunny-Day edition.",
@@ -180,7 +180,7 @@ window.TI_LANG.en = {
   "galTypes": "16 Cities",
   "galMetHint": "Cities you got get a \"Visited\" stamp; cities your friends brought get a \"Friend\" stamp",
   "galHidden": "Secret Types",
-  "galHiddenSub": "Summoned by special ways of answering",
+  "galHiddenSub": "Follow the hints to summon them",
   "galEggs": "Easter Egg Cards",
   "galEggsSub": "Hidden in your speed, the clock, the weekend, your language, and the mascots themselves",
   "met": "Visited",
@@ -213,7 +213,13 @@ window.TI_LANG.en = {
   "metFriend": "Friend",
   "eggFoundOn": "Unlocked {d}",
   "hiddenLocked": "Secret type",
-  "eggLocked": "Easter egg"
+  "eggLocked": "Easter egg",
+  "hintPet": "Squish me! There's a surprise.",
+  "hintPetMore": "{n} more squishes to unlock \"{egg}\"",
+  "hintLang": "Switch languages once for a surprise!",
+  "tipsTitle": "Easter eggs still waiting for you",
+  "tipsProgress": "{a} of {b} secret cards unlocked",
+  "tipsMore": "See them all →"
  },
  "dims": {
   "E": {
@@ -296,7 +302,7 @@ window.TI_LANG.en = {
   "s5t": "Secret types & Easter eggs",
   "s5b": "4 secret types hide in the way you answer, and 10 Easter egg cards hide in your speed, the clock, the weekend, your language, and the city mascots themselves. Every tuanzi (our little city mascots) on this site can be squished. Hints are in the collection.",
   "pt": "Privacy",
-  "pb": "Your answers are scored on your device and never uploaded. The visitor count on the home page comes from Busuanzi, a third-party counter that only tallies anonymous visits. Your result lives in your own browser; clearing browser data deletes it.",
+  "pb": "Your answers are scored on your device and never uploaded. To show visitor numbers, the site only counts finished quizzes and the result type (e.g. \"Chengdu\"); no IP, name or personal info is stored. The open count on the home page comes from Busuanzi, a third-party counter. Your result lives in your own browser; clearing browser data deletes it.",
   "rt": "References",
   "ct": "Credits",
   "cb": "All CITYTI copy and city mascot illustrations are original; the questions are adapted from the public-domain IPIP. Please credit when sharing. QR codes by qrcode-generator (MIT)."
@@ -402,7 +408,7 @@ window.TI_LANG.en = {
    "You're calm most of the time: when the odd cloud drifts in, you clear right back up on your own.",
    "Your inner weather has sunny spells and showers but rarely a real storm: you strike a perfect balance between sensitive and steady.",
    "You feel things deeply: little things easily shift your mood, and that's exactly why you understand other people's sunshine and rain so well.",
-   "Your heart is a high-sensitivity weather station that picks up every passing breeze, so remember to keep an umbrella handy for yourself."
+   "Your heart is a high-sensitivity weather station that picks up every passing breeze. When a friend's mood turns cloudy, you're the first to notice."
   ]
  },
  "types": {
@@ -413,8 +419,8 @@ window.TI_LANG.en = {
    "tagline": "Always on fast-forward. Always room for one more.",
    "desc": [
     "Your soul runs on Shenzhen time: young, bold, and permanently on fast-forward. New tech, new cafés, new ideas? You're in the first wave, every time. By day you're crushing a project in a glass tower; by evening you've rounded up a crew for sea breezes at Shenzhen Bay. And you live by the city's famous welcome: \"Once you're here, you're a Shenzhener.\" Nobody stays new around you for long.",
-    "People see your speed and miss your parks. This city has over a thousand of them, and you carry that much green inside you too. Between sprints you'll hike Wutong Mountain for the sunrise or watch winter birds in the mangroves. You hustle because you dream big, and you help newcomers because you remember being new.",
-    "This city proves dreams can grow fast, and so can kindness. Keep that drive and that big warm heart. Run fast, but stop now and then to look at the sea. Every newbie who crosses your path will feel at home a little sooner, because of you."
+    "Beyond the speed, you've got a soft spot for green spaces. This city has over a thousand parks, and between sprints you'll sneak off to hike Wutong Mountain for the sunrise or watch winter birds in the mangroves. When someone new lands in Shenzhen, you send over your apartment-hunting notes and best commute routes before they've even unpacked.",
+    "This city proves dreams can grow fast, and so can kindness. You crush projects all week, then take the new coworker to the bay on Saturday and add them to three of your dinner group chats. Anyone new who meets you feels at home by week one."
    ],
    "tags": [
     "Bold Moves Only",
@@ -440,12 +446,12 @@ window.TI_LANG.en = {
     "Helps so much, ends up adopting everyone's to-do list",
     "One day off and you miss the work chat"
    ],
-   "love": "In love, you move fast and mean it. You say how you feel, and date night is always at the place that opened last week. They mention a tiny wish once, and it's handled by the weekend. Just slow down sometimes: sit with them by the bay and watch a whole sunset.",
+   "love": "In love, you move fast and mean it. You say how you feel, and date night is always at the place that opened last week. They mention a tiny wish once, and it's handled by the weekend. Your most romantic move yet: a whole sunset by the bay together, without one glance at the work chat.",
    "work": "At work, you're a doer with a big heart. You master the new tool first, then teach it to the whole team. Deadline crunch? You're the one typing \"I've got it\" in the group chat. Your rule: launch first, polish later. Three meetings and zero progress? Torture.",
    "friends": "To your friends, you're the fixer. Moving, apartment hunting, switching jobs? You've got a checklist for that. You're also the group's trend radar: whatever just opened or just dropped, you knew yesterday.",
-   "stress": "Under pressure, you speed up: lists, priorities, full throttle, often carrying it all alone. What helps is a friend who drags you to the beach and reminds you the ocean isn't going anywhere. You don't have to sprint forever.",
+   "stress": "Under pressure, you speed up: lists, priorities, full throttle, often carrying it all alone. What works is a friend who drags you to the beach for half an hour of sea breeze. You come back to the same list with a much clearer head.",
    "recharge": "Round up friends to bike Shenzhen Bay at sunset, or hike Wutong Mountain together on Saturday. Sea breeze, mountain air, good company: full battery.",
-   "growth": "You don't have to be first at everything. Try one \"slow evening\" a week: no notifications, no new skills, just a walk in the park. And sometimes swap \"I've got it\" for \"you take this one.\" Others grow, and you get to breathe.",
+   "growth": "Try one \"slow evening\" a week: no notifications, no new skills, just a walk in the park. And now and then, swap \"I've got it\" for \"you take this one.\" Your teammate gets the practice, and you get to the beach before sunset.",
    "tips": [
     "Found a new spot? Invite them. Instant yes.",
     "Thank them when they help. It'll make their week.",
@@ -475,8 +481,8 @@ window.TI_LANG.en = {
    "tagline": "Calendar packed, outfit perfect, boundaries crystal clear.",
    "desc": [
     "If you were a city, you'd be Shanghai: fast, forward-looking, and always put-together. Like the city, you happily take in everything new from every corner of the world. Mornings are back-to-back meetings in a Lujiazui tower; evenings are a gallery opening and a stroll along the Huangpu River. You love a buzz, but you love doing things beautifully even more.",
-    "People assume you're all polish and productivity, but there's a cozy old longtang (a classic Shanghai lane) inside you too. A tray of pan-fried soup buns or a bowl of scallion-oil noodles, and the armor comes off. You value boundaries: you don't pry, and you'd rather not be pried at. But for your chosen few, you quietly handle things. Few words, flawless follow-through.",
-    "This city taught you that class isn't an act. It's respect, for yourself and for everyone around you. Keep your style and your drive, and keep being that independent, quietly dazzling version of you, with the river breeze at your back."
+    "Under all that polish, there's a cozy old longtang (a classic Shanghai lane) in you too. An order of pan-fried soup buns or a bowl of scallion-oil noodles, and the armor comes off. You're big on boundaries: you don't pry, and you expect the same courtesy. But for your chosen few, you quietly handle things. Few words, flawless follow-through.",
+    "This city taught you that class means respect, for yourself and for everyone around you. So you leave the office at ten with your shirt still crisp, and on weekends you reach the riverfront the exact second the Bund lights up. Of course you timed that."
    ],
    "tags": [
     "Always on Point",
@@ -507,7 +513,7 @@ window.TI_LANG.en = {
    "friends": "To your friends, you're the gold standard of taste and reliability. Need a restaurant, an exhibit, an outfit check? Ask you. You don't gush, but when someone's in a real bind, you show up with the most useful plan in the room.",
    "stress": "Under stress, you look totally unbothered. Privately, you break the problem into a checklist and knock it out item by item. You don't vent much. What helps most is uninterrupted alone time and a perfectly made coffee.",
    "recharge": "A solo city walk: a new exhibit, a detour down a leafy side street, then a café window seat for people-watching.",
-   "growth": "You keep everything picture-perfect, but life doesn't need to be flawless in every frame. Try saying \"I could use some help\" now and then, or head out with zero plan. The unpolished moments turn out to be pretty charming.",
+   "growth": "Try saying \"I could use some help\" now and then, or head out with zero plan: turn down a random lane, grab a seat somewhere you've never looked up. The afternoons that never made it onto your calendar are often the best ones.",
    "tips": [
     "Book them early. Their calendar fills up fast.",
     "Spot a new exhibit or café? Send it their way.",
@@ -538,7 +544,7 @@ window.TI_LANG.en = {
    "desc": [
     "Your soul lives in Changsha, the city that never really goes to bed. You love a crowd, you love what's new, and your joy is loud and instant. Daytime is for drifting; sundown is when you actually boot up. Wuyi Square lights up, and out come black stinky tofu, sugar-glazed rice cakes and fiery crayfish. Viral new spot? You were there opening week.",
     "You never enjoy anything solo. One late-night snack run and you've invited everyone, plus the table next to you. Plans? Nah. \"Yaode, let's go!\" (local for \"sure thing\") is your whole itinerary. Under all that noise, you're deeply loyal: you remember every friend who slurped rice noodles with you or watched the Xiang River roll by at 2 a.m.",
-    "This city proves happiness can be simple: a skewer of stinky tofu, a crowd of good friends, a night you don't want to end. Stay this warm and this fun. Just save a few quiet mornings for yourself. Even a fun planet needs to recharge."
+    "This city proves happiness can be simple: a skewer of stinky tofu, a crowd of good friends, a night you don't want to end. When you text the group \"last stop, I promise\" at 3 a.m., everyone knows there are at least two more stops to go."
    ],
    "tags": [
     "Night Owl",
@@ -564,7 +570,7 @@ window.TI_LANG.en = {
     "Plans are vibes. Sometimes the vibes crash.",
     "Dinner for two becomes dinner for twelve"
    ],
-   "love": "In love, your sweetness is off the charts. No planning needed: one \"snack run?\" text after work and you're off. You introduce them to everyone you know, and you peel the last crayfish and drop it in their bowl. You might forget an anniversary, but you'll make them laugh every single day.",
+   "love": "In love, your sweetness is off the charts. No planning needed: one \"snack run?\" text after work and you're off. You introduce them to everyone you know, and you peel the last crayfish and drop it in their bowl. Anniversaries occasionally slip your mind, but you make them laugh every single day.",
    "work": "At work, you're the team's mood booster and idea machine. New angles pour out of you, and when the room gets tense, you're the rescue. You'd rather tweak as you go than follow a rigid process, and you're clutch right before deadlines. Same routine every day? Your battery quietly dies.",
    "friends": "To your friends, you're where the fun comes from. Someone's sad? One call and you've dragged them out for late-night eats. You're also the best guide in town: you know exactly which alley hides the good stuff.",
    "stress": "When stress hits, you get out of the house: spicy food with friends, a walk by the river, talking it all out. What helps most is a crew that'll stay up late, hear your whole rant, and then laugh with you.",
@@ -599,8 +605,8 @@ window.TI_LANG.en = {
    "tagline": "The streets twist. My words don't.",
    "desc": [
     "Your soul comes with 8D terrain: spicy, playful, and allergic to the ordinary. Your life is stacked like Chongqing itself, where a monorail runs right through an apartment building and the 22nd floor can open onto a street. You crave the weird and the wild, and the louder the scene, the better. Plans? Overrated. When the GPS gives up, you just wander, because every staircase leads somewhere fun.",
-    "You talk like a pot of chili-oil hotpot: hot, honest, nothing hidden. You also know your boundaries. You're not clingy, and you stay out of other people's business. But once someone's truly your friend, you show it in actions, not speeches. And when the fog lifts off the Mountain City, people see your secret side: a romantic who glows with the two rivers at night.",
-    "The Mountain City taught you that life doesn't have to follow the rules. Even the steepest, twistiest path can be your own. Stay fiery, stay real, say what you mean, and go where you want. Xiongqi, as they cheer here: rise up! Your life should bubble like a hotpot at full boil."
+    "You talk like a pot of chili-oil hotpot: hot, honest, nothing hidden. You also know your boundaries. You're not clingy, and you stay out of other people's business. But once someone's truly your friend, you show it in actions, not speeches. And when the fog lifts off the Mountain City, your romantic side comes out: you could watch the two rivers glitter all night.",
+    "The Mountain City taught you that even the steepest, twistiest path can be your own. GPS gives up? You just keep walking. Extra spicy? You don't even blink. Xiongqi, as they cheer here: rise up! Your days bubble like a hotpot at full boil."
    ],
    "tags": [
     "Says It Straight",
@@ -633,7 +639,7 @@ window.TI_LANG.en = {
    "recharge": "Ride the Yangtze River cable car solo for the view, or grab a food buddy and sweat it out over a nine-grid hotpot (one pot, nine cooking zones).",
    "growth": "Your honesty is a gift, but even great hotpot comes in different spice levels. Before you say something big, pause for three seconds and think about how it'll land. And try a tiny bit of planning, like checking the weather first.",
    "tips": [
-    "They're blunt, not mean. Don't overthink it.",
+    "They're blunt. What they say is exactly what they mean.",
     "Invite them to hotpot. They'll cross the city for it.",
     "Give them space. They'll come back around on their own."
    ],
@@ -662,7 +668,7 @@ window.TI_LANG.en = {
    "desc": [
     "You've got Beijing's juqi in your bones: that big-hearted, do-right-by-everyone spirit the city is known for. You'll chat with anyone, and when a friend calls, you're on your way before they finish the sentence. You've got the city's depth too. You love old flavors and old ways, and a bowl of zhajiang noodles (in savory bean sauce) or a copper pot of lamb hotpot answers most of life's questions.",
     "The chatter is only half of you. The other half is pure drive: by day you're all business and nothing gets left half-done; by evening you're back in a hutong lane with a skewer of candied hawthorns. You love a bit of witty banter, but you're sharp as a tack, and when you promise something, it happens. That's juqi.",
-    "This city's magic is that it holds red palace walls, brilliant blue autumn skies and warm hutong neighborliness all at once. So do you. Stay big-hearted and dependable. And however fast you're moving, pause now and then to hear the whistling pigeons circle over the rooftops."
+    "This city's magic is that it holds red palace walls, brilliant blue autumn skies and warm hutong neighborliness all at once. So do you. However fast you're moving, when pigeons circle overhead with their little whistles humming, you look up, then text an old friend: \"Gorgeous day. Hotpot tonight?\""
    ],
    "tags": [
     "Big-Hearted Host",
@@ -688,12 +694,12 @@ window.TI_LANG.en = {
     "Change the old routine and you feel off all day",
     "Wins every fight over the check"
    ],
-   "love": "In love, you're generous and steady. You remember which dish they love at which old restaurant, and you plan every holiday yourself. No flashy games; you offer the solid comfort of \"I'm right here.\" You tend to put yourself last, though, so let them take care of you sometimes.",
+   "love": "In love, you're generous and steady. You remember which dish they love at which old restaurant, and you plan every holiday yourself. No flashy games; you offer the solid comfort of \"I'm right here.\" You always put yourself last, so the day they grab the check or peel you a bag of roasted chestnuts, you're grinning for a week.",
    "work": "At work, you're the team's backbone: you respect the process, value efficiency, and never drop the ball. You're a natural mentor too. When a newbie's stuck, you say \"just ask me,\" then walk them through it step by step. All talk and no action, or passing the buck? Not on your watch.",
    "friends": "To your friends, you're the anchor. You organize the get-togethers, fight for the check, and get the first call when things go wrong. You're funny, too: you can turn an ordinary hotpot dinner into a full comedy show.",
-   "stress": "Under stress, you say \"It's nothing\" while quietly working overtime in your head. What you need is a friend who drags you out for hotpot and gets you talking. You've taken care of everyone for so long. It's your turn to be looked after.",
+   "stress": "Under stress, you say \"It's nothing\" while quietly working overtime in your head. What works is a friend who calls and drags you out for hotpot. Two plates of lamb in, and the real story comes out on its own.",
    "recharge": "A hutong stroll with an old friend, zhajiang noodles at an old-school spot, then chatting by the Houhai lakeside as the sun goes down.",
-   "growth": "Your generosity makes people feel safe, but you don't have to carry everything. Hand off a few tasks, and now and then let a friend say \"my treat.\" And give your routines some wiggle room: try one new restaurant a month.",
+   "growth": "Hand off a few tasks, and now and then let a friend win the fight over the check. Loosen the routine a little too: one new restaurant a month keeps fresh names joining your list of old favorites.",
    "tips": [
     "When they help you out, the next hotpot's on you.",
     "Ask them about old Beijing. Settle in for the afternoon.",
@@ -723,8 +729,8 @@ window.TI_LANG.en = {
    "tagline": "Breakfast on the run, and I never back down.",
    "desc": [
     "Your soul is a freshly tossed bowl of hot dry noodles (reganmian): hearty, solid, better the more you stir. You're a whirlwind and the life of every room, with Wuhan's famous bufuzhou streak, roughly \"I refuse to lose.\" Tell you it can't be done and you'll prove otherwise. Breakfast happens on the move, ten minutes flat, then you charge through the day. Your favorite old noodle stall? Loyal for years.",
-    "You seem happy-go-lucky, but you know exactly what you want. You skip the pleasantries, rarely ask for favors, and would rather carry the load yourself, then show everyone it worked. The Yangtze and Han rivers meet right here, and that's you: roaring on the surface, sure of your course underneath. You don't say you care. You just show up first when it counts.",
-    "The River City taught you to finish what you start: loud, proud, not one step back. Keep that bufuzhou drive, and still carve out time to bike around East Lake under the cherry blossoms. You deserve every good thing, including a break."
+    "Big voice, bigger convictions. You skip the pleasantries, rarely ask for favors, and would rather carry the load yourself, then show everyone it worked. The Yangtze and Han rivers meet right here, and that's you: roaring on the surface, sure of your course underneath. You don't say you care. You just show up first when it counts.",
+    "The River City taught you to finish what you start: loud, proud, not one step back. Even cherry-blossom season is a race: you're on the East Lake greenway at sunrise, and by the time everyone else shows up, you've got your photos, finished your hot dry noodles, and you're off to the next stop."
    ],
    "tags": [
     "Grit Mode on",
@@ -755,11 +761,11 @@ window.TI_LANG.en = {
    "friends": "To your friends, you're sharp-tongued but rock-solid. You roast the hardest and charge in first. You're not into mushy stuff, but everyone knows that with you around, things get handled.",
    "stress": "Under stress, your first reaction is \"That's nothing!\" and then you just push harder, rarely showing a crack. What helps most is a walk along the riverfront, watching the Yangtze roll by until the fire inside cools down.",
    "recharge": "Take the ferry across the Yangtze, let the river wind hit your face, then gather old friends around a pot of lotus root and pork rib soup until dark.",
-   "growth": "Your drive is impressive, but you don't have to win every round. Block out a little \"no competition\" time each week, like a slow bike ride on the East Lake greenway. And try saying \"Can you help me?\" Asking is a skill too.",
+   "growth": "Block out some \"no competition\" time each week: a slow ride on the East Lake greenway where you let everyone pass. Call it a vacation for your competitive streak. And when a problem's tough, try \"Give me a hand?\" Two people crack it faster, and winning together feels even better.",
    "tips": [
     "Want to fire them up? Say \"bet you can't.\"",
     "Meeting them early? Bring a bowl of hot dry noodles.",
-    "They're blunt about the task, never about you."
+    "They argue about the task, then buy you breakfast."
    ],
    "peeves": [
     "Don't micromanage them.",
@@ -785,8 +791,8 @@ window.TI_LANG.en = {
    "tagline": "Pull up a chair, have some tea. What's the rush?",
    "desc": [
     "There's a little Chengdu in your soul: you love a lively table, you know how to enjoy life, and your days run on anyi, local slang for \"cozy and content.\" You adore old streets and old teahouses, where one lidded cup of tea lasts from lunch to sunset. You love street food too, from chuanchuan skewers to hotpot, but it only tastes right shared with friends.",
-    "You look laid-back, but your heart is packed with people: who loves spice, who's been down lately, you keep track of it all. You believe life doesn't need rushing; if it can wait, let it. Chengdu skies are often gray, so when the sun breaks through, the whole city heads outside to soak it up. To your friends, you're that rare sunny day.",
-    "Chengdu taught you that life isn't a race. It's one long, unhurried chat over tea. Stay this cozy and this kind, and hug your friends and your small joys the way a panda hugs bamboo. When you're tired, pour another cup. Bashi, as locals say: just right."
+    "Your heart is packed with people: who loves spice, who's been down lately, you keep track of it all. If something can wait, you let it. Chengdu skies are often gray, so when the sun breaks through, the whole city heads outside to soak it up. To your friends, you're that rare sunny day.",
+    "In Chengdu, life is one long, unhurried chat over tea. You're the one who keeps the refills coming and the friends staying till dark, hugging your people and your small joys the way a panda hugs bamboo. Tea gone cold? Pour another. Bashi, as locals say: just right."
    ],
    "tags": [
     "Slow Living Pro",
@@ -816,7 +822,7 @@ window.TI_LANG.en = {
    "work": "At work, you're the team's peacemaker. Everyone likes you, and when tempers flare, one \"easy, no rush, let's talk\" from you cools the room. You do your best work at your own pace, with familiar routines and a friendly team. Tight deadlines breathing down your neck? Not your favorite.",
    "friends": "To your friends, you're the easiest dinner date and the warmest listener. Someone's down? \"Come on, let's get tea.\" You remember everyone's tastes, and the old-school spot you pick always pleases the whole table.",
    "stress": "Under stress, you don't tough it out alone; you talk it through with friends over tea until it feels lighter. When the to-do list piles up, you tend to procrastinate a bit, so a friend who helps you make a list works wonders.",
-   "recharge": "An afternoon at an old park teahouse: refills of lidded-cup tea, the neighbors' chatter, maybe even a traditional ear cleaning on the side.",
+   "recharge": "An afternoon at an old park teahouse: refills of lidded-cup tea, the neighbors' chatter, and, for the brave, a traditional ear cleaning on the side.",
    "growth": "Your chill is a gift, but save a little urgency for what matters. Each morning, write down the one thing that has to happen and do it before tea. And sometimes, say \"I'll skip this one\" and keep an evening for yourself.",
    "tips": [
     "Invite them for tea or skewers. Guaranteed yes.",
@@ -838,7 +844,7 @@ window.TI_LANG.en = {
     "Panda rules: eat, nap, hug."
    ],
    "cHi": "Overcast skies call for hot tea; night rain calls for big feelings. You savor both, all evening.",
-   "cLo": "The moment the sun peeks out, you're riverside with tea, maybe even spotting the snowy peaks."
+   "cLo": "The moment the sun peeks out, you're riverside with tea, and on a really clear day you can even spot the snowy peaks."
   },
   "HLLL": {
    "breed": "Xi'an",
@@ -848,7 +854,7 @@ window.TI_LANG.en = {
    "desc": [
     "Deep down, you're pure Xi'an: bold, blunt, with a little Tang Dynasty swagger. You love a crowd; when the Tang-themed night boulevard lights up, you'll stroll it end to end. You love old things too: the ancient city wall, booming qinqiang opera, a bowl of paomo (flatbread torn into lamb soup). Locals would sum all that up as liao za lie: awesome. And you never beat around the bush.",
     "Your pace is unhurried. Paomo bread gets torn by hand into pea-sized bits, and that can't be rushed; an afternoon basking by the old wall just melts away. You're independent and opinionated, you skip the trends, and you're nobody's shadow. But when someone's genuinely good to you, you repay it in the most down-to-earth way. Thousands of years of history give you patience and perspective.",
-    "This ancient city taught you that true boldness means living openly and unhurriedly. Keep that Tang Dynasty spirit: eat big, speak freely. And when the lanterns glow along the city wall, take a walk up there. You'll find you're a poem straight out of old Chang'an (Xi'an's ancient name)."
+    "This ancient city taught you that true boldness means living openly and unhurriedly. So you order the big bowl and eat your way down the night market, end to end. When the lanterns light up along the city wall and you pedal past underneath, you look like you just rode out of a Tang poem from old Chang'an (Xi'an's ancient name)."
    ],
    "tags": [
     "Tang Dynasty Swagger",
@@ -910,7 +916,7 @@ window.TI_LANG.en = {
    "desc": [
     "You've got Hefei energy: low-key, dependable, always quietly leveling up. While everyone else is still debating the next big trend, you've already figured it out: new tech, new tools, that new electric car. You're always in the first wave. You don't talk much, but the moment someone's stuck, you're the first to help.",
     "Here's Hefei's secret: this low-key city is home to an experimental fusion device nicknamed the \"artificial sun,\" with a whole lake, Chaohu, at its doorstep. You're the same: quiet on the surface, running a full lab of ideas underneath. You never overpromise. You wait for the results, then quietly blow everyone away.",
-    "You're living proof that you don't have to be loud to be a hidden gem. You shine quietly, and the people around you shine brighter for it. Keep rising in your own lane, and don't forget to stop for a sunset now and then. That hardworking you deserves some credit."
+    "You're the quiet kind of hidden gem. Someone in the group chat asks \"how do I do this?\" and ten minutes later you've posted a how-to, screenshots included. At year's end, everyone finds out the standout project was yours. Again."
    ],
    "tags": [
     "Low-Key Legend",
@@ -939,12 +945,12 @@ window.TI_LANG.en = {
    "love": "In love, sweet talk isn't really your thing. You show it instead: remembering their little habits, planning the date route ahead of time, quietly charging their phone. You love dragging them along to try new things, too. A new exhibit, a new gadget: you want to unlock it together.",
    "work": "You're the team's secret weapon: quiet in meetings, rock-solid at delivery. You're first to crack every new tool, and you'll write up a how-to so everyone can catch up. You map out the plan, then execute step by step. Overtime doesn't scare you. A new direction every single day? That does.",
    "friends": "To your friends, you're the \"just ask them\" person: tech questions, big purchases, life's little puzzles. You rarely seek attention, but whenever you show up, you bring a solution with you.",
-   "stress": "Under pressure, you go quiet, flip into focus mode, and grind through it alone. You don't have to keep it all bottled up. Talk it out with a friend you trust, or take a breezy walk by the water. The knot loosens fast.",
+   "stress": "Under pressure, you go quiet, flip into focus mode, and grind through it alone. What works best: talking it out with a friend you trust, or a breezy walk by the water. The knot loosens fast.",
    "recharge": "Notifications off, a bike ride along Chaohu Lake, the water slowly turning orange at sunset. Battery: 100%.",
-   "growth": "Your hard work deserves to be seen. When you nail something, say it out loud: \"I made that.\" Share half-formed ideas too. Not every big move has to stay secret until launch day, and with company, you'll go faster.",
+   "growth": "When you nail something, say it out loud: \"I made that.\" Post it, even. Share half-formed ideas too: release the big move as a beta, let a few friends help hunt bugs, and you'll ship faster.",
    "tips": [
     "Compliment them specifically. They'll act shy but secretly love it.",
-    "Stuck on new tech? They're your person, zero judgment.",
+    "Stuck on new tech? Ask them. Clearer than any manual.",
     "If they suddenly go quiet, something big is in the works."
    ],
    "peeves": [
@@ -972,7 +978,7 @@ window.TI_LANG.en = {
    "desc": [
     "Yours is a very Hangzhou kind of contrast: a gorgeous lake view out the window, a constantly evolving idea on your desk. You have a nose for what's next: new tech, new playbooks, new markets. You're usually a step ahead. You like to think things through alone, and once it clicks, you move fast. Like, alarmingly fast.",
     "West Lake's beauty is quiet, but this city hums with startup energy, and here poetry and hustle get along just fine. Same with you: you love your solitude, your boundaries are crystal clear, and crowds aren't your thing. Your kindness shows in how you respect space. Few people get close, but the ones who do get your full attention.",
-    "You're West Lake at dawn: no fanfare, a glow all your own. Stay curious about the world that's coming. And now and then, close the laptop, stroll the lakeshore, wander up into the tea hills. Hustling is your talent. Knowing when to ease off is your next-level secret."
+    "You're West Lake at dawn: no fanfare, a glow all your own. At 1 a.m., a fresh idea is taking shape in your doc. At 6 a.m. on Saturday, there you are, strolling the empty lakeshore alone. Busy or idle, you schedule both perfectly."
    ],
    "tags": [
     "Quiet Grinder",
@@ -1003,11 +1009,11 @@ window.TI_LANG.en = {
    "friends": "Your friends' verdict: \"slow to text back, absurdly reliable.\" You skip most group dinners, but when someone's thinking about switching jobs or starting a side hustle, you're the first call. You cut straight to the point, clear-eyed every time.",
    "stress": "When pressure builds, you get quieter and dive straight into fixing things. You don't need a pep talk, just some uninterrupted time. By the time your tea is brewed and your thoughts are sorted, the problem's half solved.",
    "recharge": "A 6 a.m. walk along West Lake before the crowds arrive, then home for a cup of spring Longjing (Dragon Well green tea).",
-   "growth": "Your drive is magnetic, but you're not a server built for 100% uptime. Set yourself some \"offline hours\": no replies, no plans, no drafts. Rest isn't falling behind. It's charging up for your next iteration.",
+   "growth": "Your drive is magnetic. Set yourself some \"offline hours\": no replies, no plans, no drafts, phone in a drawer. People work like servers: a scheduled reboot makes the next version run faster.",
    "tips": [
     "Need them? Skip the small talk and get to the point.",
     "Invite them for tea and a walk, not a loud party.",
-    "Slow replies aren't cold. They're just deep in focus."
+    "Slow reply? They're deep in focus. They'll resurface."
    ],
    "peeves": [
     "Don't pull them into chitchat when they're racing a deadline.",
@@ -1033,8 +1039,8 @@ window.TI_LANG.en = {
    "tagline": "Staring at the sea is my full-time job, thanks.",
    "desc": [
     "Your soul has that Xiamen sea breeze: gentle, unhurried, a little bit artsy. Small, fresh finds make your week: a tiny shop down an alley, an indie exhibit, a hand-drawn postcard. You're never in a rush to get anywhere. You'd rather wander, and turn your days into poems along the way.",
-    "Xiamen's nickname is Egret Island, and beyond its famous photo spots it hides a quiet tenderness: old streets smelling of sweet peanut soup at dawn, bougainvillea spilling over garden walls. Same with you: you look slow and dreamy, but you always keep people in mind. You remember a friend's offhand little wish, and you'll sit through a whole sunset with anyone who needs company.",
-    "You remind people that slowing down isn't falling behind. It's a real skill for living well. Keep your romance and curiosity, keep zoning out by the sea and treasure-hunting in little shops. And while you're being gentle with everyone else, save some of that gentleness for yourself."
+    "Xiamen's nickname is Egret Island, and beyond its famous photo spots it hides a quiet tenderness: old streets smelling of sweet peanut soup at dawn, bougainvillea spilling over garden walls. Same with you: you always keep people in mind. You remember a friend's offhand little wish, and you'll sit through a whole sunset with anyone who needs company.",
+    "With you around, slowing down becomes an art. You know which beach gets the best sunset, and which little shop owner will slip an extra postcard into your bag. Trips with you never fill the itinerary, and always overflow the camera roll."
    ],
    "tags": [
     "Sea Breeze Soul",
@@ -1060,7 +1066,7 @@ window.TI_LANG.en = {
     "One shop owner suggestion and you buy everything",
     "Plan: one line long. You: already at the beach."
    ],
-   "love": "In love, you're romantic and thoughtful: little handwritten cards, every mini anniversary remembered, spontaneous trips to catch the sunset. You're not about grand gestures. You're about the long, easy flow. Dream date? Biking the seaside Island Ring Road, wind in your hair, chatting the whole way.",
+   "love": "In love, you're romantic and thoughtful: little handwritten cards, every mini anniversary remembered, spontaneous trips to catch the sunset. Grand gestures? You'd rather have the long, easy flow. Dream date: biking the seaside Island Ring Road, wind in your hair, chatting the whole way.",
    "work": "On any team, you're the creative one: fresh ideas, a great eye, and everything you make has a little warmth to it. You do best at a relaxed pace. Push too hard and the inspiration evaporates. You love brainstorming for teammates. Just don't let your own deadline blow away with the sea breeze.",
    "friends": "Ask your friends and they'll tell you: you really know how to live. You know where the sunset hits right and which tiny shop is worth the trip. You rarely organize parties, but when someone's down, you text: \"Wanna go walk by the sea?\"",
    "stress": "When stress hits, you need to step away: bike to the beach, or curl up by the window and doodle. Being rushed throws you off. What helps most is a friend who doesn't hurry you, plus a slowly brewed pot of tea.",
@@ -1096,7 +1102,7 @@ window.TI_LANG.en = {
    "desc": [
     "You're a breeze rolling down from the Cangshan Mountains: free, easygoing, never quite by the rules. New ways of living fascinate you: slow travel, remote work, moving to a new city on a whim. Others call it risky. You call it just right. Crowds aren't your scene. Give you an afternoon of sun and clouds and you're content.",
     "Dali's romance comes in four parts, the famous \"wind, flowers, snow and moon\": the wind of Xiaguan, the flowers of Shangguan, the snow on Cangshan, the moon over Erhai Lake. Your inner world is just as rich; you just don't put it on display. You know what you want. You don't follow the crowd, don't people-please, and never meddle. You give others freedom and ask for the same.",
-    "Around you, people remember there's more than one way to live. Keep chasing wind, clouds and new possibilities at your own easy pace. And once in a while, drop the \"I've got this solo\" and let someone you trust ride a stretch of the lake road with you."
+    "Around you, people remember there's more than one way to live. Your location tag changes every month: by the lake last month, some tiny old town nobody's heard of this month. Your friends like every post, then quietly save your route for later."
    ],
    "tags": [
     "Free Spirit",
@@ -1127,10 +1133,10 @@ window.TI_LANG.en = {
    "friends": "In your friend group, you're the one living most on your own terms. Your feed is either clouds or you on the way to clouds. You rarely reach out first, but when someone wants to change their life, you're who they call.",
    "stress": "When the pressure's on, your instinct is to step back: phone off, a few days somewhere quiet. You hate being hounded with \"what's wrong?\" Give you space and sunshine, and you'll come back on your own, with new answers.",
    "recharge": "A hike up the Cangshan Mountains, a few deep breaths inside the clouds, and you're fully charged by the time you come down.",
-   "growth": "Freedom is precious, but a little grounding can make you feel safer. Keep one small ritual: a weekly call home, or a scrapbook of your travels. Freedom with roots flies farther.",
+   "growth": "Keep one small ritual wherever you land: a weekly call home, or one notebook where every ticket stub and postcard goes. A few years in, it's a map nobody else has.",
    "tips": [
     "Don't lock their plans in too early. Leave room to wing it.",
-    "If they vanish for a few days, relax. Stories incoming.",
+    "When they vanish for a few days, stories are incoming.",
     "Talk new ways of living with them. Watch their eyes light up."
    ],
    "peeves": [
@@ -1157,8 +1163,8 @@ window.TI_LANG.en = {
    "tagline": "Morning dim sum, then straight to work. Soup is my love language.",
    "desc": [
     "Your soul smells like morning dim sum: low-key, practical, full of heart. You're not into showing off or big speeches. Doing it right beats saying it nicely. Your morning is \"one pot, two pieces\" (tea plus a couple of dim sum), then straight to work, fast and steady. You stick with the old flavors, and with your people.",
-    "Guangzhou's tenderness isn't in words. It's in lou fo tong, slow-fire soups that simmer for hours just so someone can say, \"Have some soup first.\" You're the same: plain on the outside, all action on the inside. Running errands for a friend, bringing late-night snacks to someone stuck at work, never making a fuss about it. Your care hides in the details.",
-    "You're like the decades-old shop under the qilou arcades (shaded colonnade streets): easy to walk past, impossible not to come back to. Keep working hard and living warmly. And now and then, slow down, make a pot of soup just for yourself, and take your sweet time over dim sum."
+    "Guangzhou's tenderness lives in lou fo tong, slow-fire soups that simmer for hours just so someone can say, \"Have some soup first.\" You're the same: you show care by doing. Running errands for a friend, bringing late-night snacks to someone stuck at work, never making a fuss about it. Your love hides in the details.",
+    "You're like the decades-old shop under the qilou arcades (shaded colonnade streets): small sign, loyal regulars. Your friends all pick up the same habit: good day, they call you for dim sum; bad day, they call you for dim sum even faster."
    ],
    "tags": [
     "Doer Not Talker",
@@ -1187,11 +1193,11 @@ window.TI_LANG.en = {
    "love": "For you, love is something you do: remembering their favorite dim sum, showing up with an umbrella when it pours, delivering soup to the door when they're sick. You don't need fireworks. You want a steady, cozy life full of everyday warmth.",
    "work": "On the job, you're the team's steady hand: less talk, more doing, solid delivery, and fast too. You trust experience, respect how things are done, and turn plans into results one by one. You love helping newbies dodge the potholes you hit. Just don't take every task on yourself.",
    "friends": "To your friends, you're the most reliable old pal around. You barely post, but you always appear when it counts. Someone's moving? Sick? Needs company? You don't ask twice. You just show up.",
-   "stress": "When pressure hits, you list everything out and grind through it, one by one. You tend to shoulder it alone and rarely ask for help. Take half a day off: dim sum, a stroll. The work won't run away, and you'll come back stronger.",
+   "stress": "When pressure hits, you list everything out and grind through it, one by one. You tend to shoulder it alone and rarely ask for help. What works best is half a day at the teahouse: one pot, two dim sum, the next table's gossip. Back at your desk, you tear through the list faster than anyone.",
    "recharge": "A corner table in an old teahouse, a slow pot of tea, a little Cantonese opera. Full HP restored.",
-   "growth": "You take care of everyone, so let yourself be taken care of too. Say when you're tired, say what you want; you don't have to \"gau dim\" (handle it) all alone. And try a brand-new spot sometimes. New flavors can surprise you.",
+   "growth": "Next time a friend asks, \"Need a hand?\", try a quick \"Yes!\" When you're wiped out, say so. And now and then, duck into a brand-new spot and add one newcomer to your list of old favorites.",
    "tips": [
-    "When they say \"done,\" it's truly done. Relax.",
+    "When they say \"done,\" it's done. No follow-up needed.",
     "Want to get closer to them? Start with dim sum.",
     "If they make you soup, that's \"I care\" in Cantonese."
    ],
@@ -1219,8 +1225,8 @@ window.TI_LANG.en = {
    "tagline": "Gentle on the outside. Standards down to the last stitch.",
    "desc": [
     "You're a quiet classical garden: every step a new view, every detail deliberate. You love things that stand the test of time: a bowl of first-broth noodles at dawn, a well-made silk fan, a craft practiced for years. You work fast and meticulously, like Suzhou's double-sided embroidery: flawless from either side.",
-    "Suzhou's gardens look effortless, but every rock and tree is placed with intention. You too: composed on the outside, a detailed blueprint inside. You're like a garden's lattice window: people catch glimpses of your world, but the door doesn't swing open for just anyone. You keep a graceful distance, and you appreciate people who do the same.",
-    "On you, being particular is a kind of power. Keep that elegance and focus, and keep perfecting what you love. But leave some blank space now and then, like the still pond in a garden: empty, and somehow that's what makes the whole view."
+    "In a Suzhou garden, every rock and tree is placed with intention. You too: an unhurried step, a detailed blueprint in your head. You're like a garden's lattice window: people catch glimpses of your world, but the door doesn't swing open for just anyone. You keep a graceful distance, and you appreciate people who do the same.",
+    "On you, being particular is a kind of power. The noodle shop you pick always has the freshest first broth. The gift you give makes people freeze for three seconds, then ask, \"How did you know I wanted this?\""
    ],
    "tags": [
     "Detail Obsessed",
@@ -1251,7 +1257,7 @@ window.TI_LANG.en = {
    "friends": "Friends call you \"the busy one who's worth the wait\": great taste, totally reliable, calendar always full. Your circle is small but lifelong. If someone needs advice, you'll give it straight and spot-on.",
    "stress": "When pressure builds, you retreat to a quiet corner, turn the chaos into a checklist, and tick it off line by line. Don't interrupt; checklists beat pep talks. Once it's sorted, a steaming bowl of Suzhou noodles brings you right back.",
    "recharge": "An early garden walk before the crowds, light shifting through the lattice windows, then a cup of Biluochun green tea. Instant calm.",
-   "growth": "Your lattice windows are lovely, but open the front gate sometimes. Show an unfinished piece to someone you trust. Imperfect things have their own scenery, and a garden with visitors feels more alive.",
+   "growth": "Your lattice windows are lovely; now and then, open the front gate too. Show a half-finished piece to someone you trust and hear their first impression. A garden with a few visitors feels more alive.",
    "tips": [
     "Book them early. Their calendar is fuller than it looks.",
     "Give them gifts with thought. Effort beats price tag.",
@@ -1263,7 +1269,7 @@ window.TI_LANG.en = {
     "Don't keep them waiting. They're always five minutes early."
    ],
    "weekend": "A morning wander down Pingjiang Road's old lanes, seasonal Suzhou noodles for lunch, pingtan (Suzhou ballad storytelling) in an old teahouse, then next week planned to perfection.",
-   "quote": "Refinement isn't for show. It's a promise to yourself.",
+   "quote": "Refinement is a promise to yourself, kept stitch by stitch.",
    "lines": [
     "First-broth noodles wait for no one!",
     "One flick of my fan, instant calm.",
@@ -1282,7 +1288,7 @@ window.TI_LANG.en = {
    "desc": [
     "There's a plane-tree avenue running through your heart: unhurried, sunlight leaking through the leaves, just right. You love things with years behind them: the old city wall, secondhand bookshops, little eateries that have been around forever. Crowds aren't your thing. Your happy place is a slow solo stroll, wherever your feet take you.",
     "This ancient capital of six dynasties has weathered centuries, and among its plane trees and bookshops grew a famously easygoing phrase: \"duo da shi a,\" roughly \"what's the big deal?\" You're the same: laid-back on the outside, warm all the way through. When a friend is down, you pat their shoulder, treat them to taro in sweet osmanthus syrup, and pull them right back up.",
-    "Think of an autumn avenue of plane trees: never flashy, warming everyone who passes by. That's you. Keep your gentleness and your easy pace, and keep savoring life. And remember: that \"no big deal\" you keep giving everyone else? It applies to you too."
+    "Think of an autumn avenue of plane trees: never flashy, warming everyone who passes by. That's you. A friend vents in the group chat at midnight, you reply, \"Duo da shi a. Duck blood noodle soup's on me tomorrow,\" and five minutes later they're fast asleep."
    ],
    "tags": [
     "Effortlessly Chill",
@@ -1308,12 +1314,12 @@ window.TI_LANG.en = {
     "Your entire love language: \"Eat more.\"",
     "Calendar permanently blank, mood decides everything"
    ],
-   "love": "As a partner, you're gentle and steady: no games, no drama, just a slow, cozy life together. You remember whether they want chili oil in their noodle soup, and every autumn you drag them out to watch the plane trees turn gold. Your love isn't loud. It's winter sunshine: just right.",
+   "love": "As a partner, you're gentle and steady: no games, no drama, just a slow, cozy life together. You remember whether they want chili oil in their noodle soup, and every autumn you drag them out to watch the plane trees turn gold. Your love is quiet, like winter sunshine: just right.",
    "work": "Every team needs a stabilizer, and that's you. No spotlight-grabbing, not the fastest pace, but rarely a slip. You like familiar routines and a friendly vibe, and you're always there when a coworker's stuck. You hate being rushed, but whatever lands on your desk ends up done, and done right.",
    "friends": "To your friends, you're a human hand warmer: not much talk, lots of comfort. When someone's down, you take them for a walk down an old street, then split some famous Nanjing salted duck. Somewhere along the way, the gloom fades.",
-   "stress": "When life piles up, your first move is \"no rush\": go for a walk, eat something good, let your brain slow down. You might procrastinate a bit, so let a friend help you sort priorities. You'll find it's lighter than it looked.",
+   "stress": "When life piles up, your first move is \"no rush\": go for a walk, eat something good, let your brain slow down. You do procrastinate a little, so a friend who helps you sort priorities is gold. One list later, half the mess is already handled.",
    "recharge": "A slow bike ride along the old city wall, a breeze by Xuanwu Lake, a sunset to finish. Life complete.",
-   "growth": "That easy pace is your signature. Make some room for your small dreams too. Set one or two little goals and nudge them forward a step each week. You take such good care of everyone; take care of the you who wants to make something.",
+   "growth": "Make some room for your small dreams: set one or two little goals, nudge them forward a step each week, then reward yourself with a bowl of duck blood soup. You have endless patience for your friends. Half of that, aimed at your own plans, is plenty.",
    "tips": [
     "Plan a slow stroll with them. Skip the packed itinerary.",
     "When they say \"no rush,\" they truly mean it.",
@@ -1342,9 +1348,9 @@ window.TI_LANG.en = {
    "short": "Jingdezhen",
    "tagline": "Don't rush me. The clay's still drying.",
    "desc": [
-    "You're the quiet maker by the kiln fire: focused, patient, a bit of a hermit. You don't chase trends. You believe in doing one thing well for a lifetime. Throwing, trimming, glazing, firing: others call it \"playing with mud.\" For you, it's a way of life. Skip the parties. One lamp, one lump of clay, and you're good for hours.",
+    "You're the quiet maker by the kiln fire: focused, patient, a bit of a hermit. You don't chase trends. You believe in doing one thing well for a lifetime. Throwing, trimming, glazing, firing: you play with mud more seriously than anyone, and you've been at it for years. Parties can wait. One lamp, one lump of clay, and you're good for hours.",
     "Jingdezhen has been firing porcelain for over a thousand years, and kaolin, the porcelain clay, is even named after a little village here. This city knows good things can't be rushed: clay needs kneading, pots need drying, and opening the kiln is like unwrapping a mystery box. Same with you. You keep your own rhythm and boundaries. Your work does the talking.",
-    "You're like a hand-thrown blue-and-white bowl: not flashy, but the more it's used, the warmer it gets. Keep tending that inner lump of clay and inner kiln, and shape your days however you like. And sometimes wander out to the weekend market. Someone there is waiting to meet your work."
+    "You're like a hand-thrown blue-and-white bowl: the more it's used, the warmer it gets. Set up a little stall at the weekend market and someone will crouch by your bowls for ages, then ask, very carefully, \"Could this one come home with me?\""
    ],
    "tags": [
     "Maker at Heart",
@@ -1375,7 +1381,7 @@ window.TI_LANG.en = {
    "friends": "Your friends find you a little mysterious: rarely at parties, posting a fresh-from-the-kiln piece now and then. Your circle is tiny, but everyone in it owns something you made by hand.",
    "stress": "When things get heavy, you retreat into your own world: close the door, knead some clay, and let your hands work through it. You don't need prying questions or someone planning for you. By the time the kiln cools, you're back.",
    "recharge": "Phone off, a full day at the pottery wheel, its steady hum filling the room. No thinking required.",
-   "growth": "Deep focus is your superpower, but the world's worth a look now and then. Try a market stall once a month: set out your pieces and chat with people who love them. Being understood is as thrilling as opening the kiln.",
+   "growth": "Deep focus is your superpower. Try a market stall once a month: set out your pieces and chat with whoever stops by. Meeting someone who instantly gets why you chose that glaze beats a perfect kiln opening.",
    "tips": [
     "No reply? Their hands are probably covered in clay.",
     "If they gift you something handmade, treasure it.",
@@ -1393,7 +1399,7 @@ window.TI_LANG.en = {
     "Opening the kiln... drumroll, please!",
     "I made this bowl myself. Cute, right?",
     "Shh... the wheel is singing.",
-    "A little wonky is still lovely."
+    "A little wonky? That's one of a kind!"
    ],
    "cHi": "Rainy days are bad for drying clay, so you daydream and fire every feeling into the glaze.",
    "cLo": "Sunny days dry the clay and your mood. Wonky bowl? Perfect for peanuts."
@@ -1404,32 +1410,32 @@ window.TI_LANG.en = {
    "breed": "High-Speed Rail Nomad",
    "nick": "Always in Transit",
    "tagline": "Between stations, a little bit of every city.",
-   "desc": "You picked \"Hard to say\" on {n} questions. Not because you can't decide, but because you're always in motion: up for a crowd at one stop, craving quiet at the next, depending on where the train pulls in. Until you step off, you belong to all sixteen cities. Retake it on gut instinct and see where your train finally stops.",
-   "hint": "Hint: ask where it's headed. It's hard to say.",
+   "desc": "You picked \"Hard to say\" on {n} questions, and results like that are rare. You're the one with the window seat on the bullet train: up for a crowd at one stop, craving quiet at the next, your mood switching with every city that slides past. You'd feel at home in all sixteen, and you know exactly which car is closest to the dining car. Other people's city passports have one stamp. Yours needed extra pages ages ago.",
+   "hint": "Hint: pick \"Hard to say\" on 15+ questions",
    "unlock": "Ding! Secret type found: High-Speed Rail Nomad"
   },
   "echo": {
    "breed": "Every-City Fan",
    "nick": "Wants It All",
    "tagline": "This city? Yes. That one? Also yes. All of them!",
-   "desc": "You agreed with {n} statements, including a few that flat-out contradict each other. You love a packed crowd and a quiet corner; you plan every minute and also just go with the flow. You want to live in all sixteen cities, and honestly, that's adorable. Retake it on gut feeling, and feel free to say no this time.",
-   "hint": "Hint: it says yes to every city.",
+   "desc": "You agreed with {n} statements, including a few that flat-out contradict each other. You love a packed crowd and a quiet corner; you plan every minute and also just go with the flow. You want all sixteen cities, and you're not even a little sorry. Your travel list runs from spring to winter, every city on it is true love, and nothing is getting cut. A traveler this greedy is a rare find.",
+   "hint": "Hint: agree (\"Kind of me\" / \"Totally me\") on 23+ questions",
    "unlock": "Ding! Secret type found: Every-City Fan"
   },
   "rebel": {
    "breed": "Reverse Tourist",
    "nick": "Never the Hotspot",
    "tagline": "If everyone's going, I'm going the other way.",
-   "desc": "You disagreed with {n} statements, even pairs that say the exact opposite of each other. Crowded hotspots? No. Quiet corners? Also no. Trendy new openings and old favorites? No and no. You hate being labeled, and no city gets to claim you that easily. Respect. Retake it on gut feeling and see which city is waiting under all those nopes.",
-   "hint": "Hint: say east and it heads west.",
+   "desc": "You disagreed with {n} statements, even pairs that say the exact opposite of each other. Crowded hotspots? No. Quiet corners? Also no. Trendy new openings and old favorites? No and no. You hate being labeled, and no city gets to claim you that easily. Even your result is the off-the-map option. While everyone else queues at the landmark, you're one alley over eating the best noodles in town, and you're not telling a soul.",
+   "hint": "Hint: disagree (\"Not me at all\" / \"Not really me\") on 23+ questions",
    "unlock": "Ding! Secret type found: Reverse Tourist"
   },
   "diode": {
    "breed": "Fire & Ice",
    "nick": "No Middle Ground",
    "tagline": "Iced or boiling. Lukewarm is not on the menu.",
-   "desc": "On {n} questions, you went straight for the ends of the scale: totally me, or not me at all. You order drinks extra iced or piping hot, and \"less ice\" has never left your lips. That clarity is cool, and also hot. But a city's loveliest days are usually the mild ones, so retake it and let yourself say \"kind of.\"",
-   "hint": "Hint: iced or boiling, never lukewarm.",
+   "desc": "On {n} questions, you went straight for the ends of the scale: totally me, or not me at all. An answer sheet this decisive made our scoring system do a double take. You order drinks extra iced or piping hot, and \"less ice\" has never left your lips. Hotpot? Extra spicy. A city you love? Five trips a year. Nobody ever has to guess what you think: it's all over your face.",
+   "hint": "Hint: on 24+ questions pick only the two extremes, and use both",
    "unlock": "Ding! Secret type found: Fire & Ice"
   }
  },
@@ -1438,70 +1444,70 @@ window.TI_LANG.en = {
    "name": "Speedrun Tourist",
    "nick": "Check In, Move On",
    "desc": "All 28 questions in under 50 seconds! You took this quiz the way speedrun tourists take a city: one glance, one tap, next stop. Did you read them all? Never mind. First impressions of a city are usually right.",
-   "hint": "Hint: answer like you have a train to catch.",
+   "hint": "Hint: finish all 28 in under 50 seconds",
    "unlock": "Whoosh! Easter egg: Speedrun Tourist"
   },
   "sloth": {
    "name": "City Walk Slowpoke",
    "nick": "No Rush, No Route",
-   "desc": "Over six minutes on one quiz. You treated these questions like a city walk: no route, no rush, stopping to admire every doorway and say hi to every cat. Respect. The city isn't going anywhere.",
-   "hint": "Hint: no rush. Wander a little.",
+   "desc": "Over six minutes on one quiz. You treated these questions like a city walk: no route, no rush, stopping to admire every doorway and say hi to every cat. Other people navigate a city. You let it find you.",
+   "hint": "Hint: take your time, over 6 minutes total",
    "unlock": "No rush! Easter egg: City Walk Slowpoke"
   },
   "night": {
    "name": "Night Market Champ",
    "nick": "Still Up, Still Snacking",
    "desc": "Taking a city quiz after midnight? The night market's lights are going out and you're still browsing. Your city has been revealed, so call that your last skewer of the night and get some sleep.",
-   "hint": "Hint: wait till the city's asleep.",
+   "hint": "Hint: take the quiz between midnight and 5 a.m.",
    "unlock": "Shh... Easter egg: Night Market Champ"
   },
   "early": {
    "name": "Dim Sum Early Bird",
    "nick": "First Basket Club",
-   "desc": "The sun's barely up and you've already met your city. The first basket of har gow (shrimp dumplings) is still steaming. Early birds get the dim sum, so go enjoy a slow, delicious morning.",
-   "hint": "Hint: catch the first steamer basket of the day.",
+   "desc": "The sun's barely up and you've already met your city. The first basket of har gow (shrimp dumplings) is still steaming. Early birds get the dim sum, so eat it hot: cold har gow loses its bounce.",
+   "hint": "Hint: take the quiz between 5 and 8 a.m.",
    "unlock": "Morning! Easter egg: Dim Sum Early Bird"
   },
   "again": {
    "name": "Repeat Visitor",
    "nick": "Usual Table, Please",
    "desc": "That's your third finish on this device! Shopping around for a new city, or do you just like it here? Either way, welcome back. Your usual table is ready and waiting.",
-   "hint": "Hint: once a visit, twice a habit, three times...",
+   "hint": "Hint: finish the quiz 3 times on the same phone",
    "unlock": "Welcome back! Easter egg: Repeat Visitor"
   },
   "twin": {
    "name": "Hometown Twins",
    "nick": "Same Soul Zip Code",
    "desc": "You and the friend who invited you got the exact same city! No wonder you two click: your souls share a hometown. Send them this card and plan a reunion dinner.",
-   "hint": "Hint: share a city with whoever invited you.",
+   "hint": "Hint: open a friend's invite link and get the same result",
    "unlock": "Hometown match! Easter egg: Hometown Twins"
   },
   "shiny": {
    "name": "Shiny Tuanzi",
    "nick": "Lit Up in Gold",
    "desc": "A 1-in-50 chance, and your city mascot showed up glowing gold, like every light in town switched on just for you. Don't waste luck like this: treat yourself to something delicious, or text someone you miss.",
-   "hint": "Hint: it glows once in fifty.",
+   "hint": "Hint: a 1-in-50 chance after every quiz. Keep trying!",
    "unlock": "Sparkle alert! Easter egg: Shiny Tuanzi"
   },
   "petter": {
    "name": "Tuanzi Squisher",
    "nick": "Certified Squish Master",
    "desc": "Thirty squishes and counting! The city mascots have been squashed into brand-new shapes, and they've voted unanimously for more. You clearly have the gentlest hands in town.",
-   "hint": "Hint: those mascots look very squishable.",
+   "hint": "Hint: squish the city mascots 30 times",
    "unlock": "Squish! Easter egg: Tuanzi Squisher"
   },
   "weekend": {
    "name": "Weekend Escape Artist",
    "nick": "Two Days, Zero Alarms",
    "desc": "You finished this on a weekend, which means your heart's already halfway out the door. Train ticket? Snacks? Good mood? Check, check, check. All that's left is picking where your next getaway goes.",
-   "hint": "Hint: open weekends only.",
+   "hint": "Hint: take the quiz on a Saturday or Sunday",
    "unlock": "Road trip! Easter egg: Weekend Escape Artist"
   },
   "bilingual": {
    "name": "Bilingual Tour Guide",
    "nick": "Fluent Both Ways",
    "desc": "You switched the site between Chinese and English! Same city, explored in two languages. Next time a friend visits from overseas, guess who's the tour guide. Bonus points for range.",
-   "hint": "Hint: one city, two ways to say it.",
+   "hint": "Hint: switch the language once (top right)",
    "unlock": "Switched! Easter egg: Bilingual Tour Guide"
   }
  },
@@ -1514,7 +1520,7 @@ window.TI_LANG.en = {
    "strength": "The lively one makes the other's world bigger: more faces, more stories, more street food. The quiet one shows the other the city beyond the crowds, where you can actually hear yourselves think. Together, every trip gets both.",
    "tips": [
     "Set a leave time before the night market, so nobody sulks.",
-    "Wanting a quiet hour isn't about you. It's a recharge."
+    "Their quiet hour is a recharge. They'll be back at 100%."
    ],
    "together": [
     "Bookshop, then night market",
@@ -1542,7 +1548,7 @@ window.TI_LANG.en = {
    "name": "Perfect Travel Buddies",
    "summary": "You love the same kinds of places and treat people the same way, so your values line up without trying. Where you differ is energy and pace: one loves the buzz, one loves the quiet; one hustles, one takes it slow. You fill each other's gaps like it was planned.",
    "dynamic": "One dives into the crowd and comes back with stories and new friends; the other keeps a quiet corner where the trip can catch its breath. Pace splits too: one runs a tight itinerary, the other reminds you both to stop and feel the breeze.",
-   "friction": "Trouble starts when your timing slips: one wants one more night market, the other wants a quiet hotel room; one is hurrying to the next stop, the other wants ten more minutes by the river. It's not a lack of caring. You're just briefly out of sync.",
+   "friction": "Trouble starts when your timing slips: one wants one more night market, the other wants a quiet hotel room; one is hurrying to the next stop, the other wants ten more minutes by the river. Same trip, two different clocks, and the little sulks begin.",
    "strength": "You agree where it matters most: what kind of places you love and how you treat people. You differ exactly where it helps: one brings the buzz, one brings the calm; one makes the plan, one leaves room for magic. Born travel buddies.",
    "tips": [
     "Give every trip one lively stop and one quiet one.",
@@ -1690,7 +1696,7 @@ window.TI_LANG.en = {
    "strength": "The warm one shows the other how good it feels to be looked after. The independent one teaches the other how to say no. Out in the world together, you've got the warmth and the boundaries, so every city feels comfortable.",
    "tips": [
     "Independent one: add a little warmth before the hard truth.",
-    "Warm one: you don't have to take care of everyone."
+    "Warm one: save some of that energy for your travel buddy."
    ],
    "together": [
     "Browse a local market",
