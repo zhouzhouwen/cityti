@@ -302,7 +302,7 @@ window.TI_LANG.en = {
   "s5t": "Secret types & Easter eggs",
   "s5b": "4 secret types hide in the way you answer, and 10 Easter egg cards hide in your speed, the clock, the weekend, your language, and the city mascots themselves. Every tuanzi (our little city mascots) on this site can be squished. Hints are in the collection.",
   "pt": "Privacy",
-  "pb": "Your answers are scored on your device and never uploaded. To show visitor numbers, the site only counts finished quizzes and the result type (e.g. \"Chengdu\"); no IP, name or personal info is stored. The open count on the home page comes from Busuanzi, a third-party counter. Your result lives in your own browser; clearing browser data deletes it.",
+  "pb": "Your answers are scored on your device and never uploaded. The site only counts finished quizzes and the result type (e.g. \"Chengdu\"); no IP, name or personal info is stored. Page opens are counted by Busuanzi, a third-party counter. Your result lives in your own browser; clearing browser data deletes it.",
   "rt": "References",
   "ct": "Credits",
   "cb": "All CITYTI copy and city mascot illustrations are original; the questions are adapted from the public-domain IPIP. Please credit when sharing. QR codes by qrcode-generator (MIT)."
