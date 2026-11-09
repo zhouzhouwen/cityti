@@ -15,7 +15,8 @@ window.TI_LANG.en = {
    "28 Qs",
    "~3 min",
    "16 cities",
-   "14 secret cards"
+   "3 secret types",
+   "10 Easter eggs"
   ],
   "start": "Start the quiz",
   "proofBase": "",
@@ -180,9 +181,9 @@ window.TI_LANG.en = {
   "galTypes": "16 Cities",
   "galMetHint": "Cities you got get a \"Visited\" stamp; cities your friends brought get a \"Friend\" stamp",
   "galHidden": "Secret Types",
-  "galHiddenSub": "Follow the hints to summon them",
-  "galEggs": "Easter Egg Cards",
-  "galEggsSub": "Hidden in your speed, the clock, the weekend, your language, and the mascots themselves",
+  "galHiddenSub": "Secret types depend on how you answer, not on your personality. When one shows up, it replaces your regular city as your result.",
+  "galEggs": "Easter Eggs",
+  "galEggsSub": "Easter eggs are collectibles you unlock by playing around. They have nothing to do with personality and never change your result. Follow the steps on each card to unlock it.",
   "met": "Visited",
   "locked": "???",
   "tryType": "Is this my city? Take the quiz",
@@ -217,9 +218,17 @@ window.TI_LANG.en = {
   "hintPet": "Squish me! There's a surprise.",
   "hintPetMore": "{n} more squishes to unlock \"{egg}\"",
   "hintLang": "Switch languages once for a surprise!",
-  "tipsTitle": "Easter eggs still waiting for you",
-  "tipsProgress": "{a} of {b} secret cards unlocked",
-  "tipsMore": "See them all →"
+  "tipsTitle": "Secret types and Easter eggs still waiting for you",
+  "tipsProgress": "{a} of {b} unlocked",
+  "tipsMore": "See them all →",
+  "galHiddenWhy": "Why secret types exist →",
+  "unlocked": "Unlocked",
+  "howLabel": "How to unlock",
+  "whyLabel": "Why it's a secret type",
+  "whyTitle": "Why a secret type?",
+  "whyMore": "See the science →",
+  "eggNoteLabel": "Does it change my result?",
+  "eggNote": "No. Easter eggs are just for fun and have nothing to do with personality."
  },
  "dims": {
   "E": {
@@ -299,13 +308,21 @@ window.TI_LANG.en = {
   ],
   "s4t": "Can rice and wheat shape how we think?",
   "s4b": "A study published in Science found that people from rice-farming regions (mostly in southern China) tend to think more interdependently and holistically, while people from wheat-farming regions (mostly in the north) tend to think more independently and analytically (Talhelm et al., 2014). Both styles have their strengths. But CITYTI matches you by vibe, not by hometown, so your soul city could be anywhere on the map.",
-  "s5t": "Secret types & Easter eggs",
-  "s5b": "4 secret types hide in the way you answer, and 10 Easter egg cards hide in your speed, the clock, the weekend, your language, and the city mascots themselves. Every tuanzi (our little city mascots) on this site can be squished. Hints are in the collection.",
+  "s5t": "Where secret types and Easter eggs come from",
+  "s5b": "Secret types and Easter eggs are two different things. A secret type depends on how you answer and replaces your regular city as your result. Easter eggs are collectibles you unlock by playing around, and they don't affect your result.",
   "pt": "Privacy",
   "pb": "Your answers are scored on your device and never uploaded. The site only counts finished quizzes and the result type (e.g. \"Chengdu\"); no IP, name or personal info is stored. Page opens are counted by Busuanzi, a third-party counter. Your result lives in your own browser; clearing browser data deletes it.",
   "rt": "References",
   "ct": "Credits",
-  "cb": "All CITYTI copy and city mascot illustrations are original; the questions are adapted from the public-domain IPIP. Please credit when sharing. QR codes by qrcode-generator (MIT)."
+  "cb": "All CITYTI copy and city mascot illustrations are original; the questions are adapted from the public-domain IPIP. Please credit when sharing. QR codes by qrcode-generator (MIT).",
+  "s5l": [
+   "<b>High-Speed Rail Nomad</b>: \"Hard to say\" on 15+ questions. Psychologists call this midpoint responding. With more than half the questions left neutral, each trait rests on just two or three answers, too few to pick a city reliably.",
+   "<b>Every-City Fan</b>: agree on 23+ questions. This is acquiescence, or yea-saying: agreeing no matter what the statement says. Half the questions on each CITYTI trait are worded in reverse, like \"Night markets, music festivals, packed streets: the bigger the crowd, the more fired up I get\" and \"My ideal night is curling up at home alone with a book or a show.\" Agree with both and the scores cancel out.",
+   "<b>Reverse Tourist</b>: disagree on 23+ questions. This is nay-saying, the mirror image: rejecting both versions cancels the scores just the same.",
+   "Researchers who study response styles treat these patterns as biases that distort scale scores (Baumgartner & Steenkamp, 2001; Van Vaerenbergh & Thomas, 2013). Serious tests check for them too: the MMPI uses validity scales to flag answer sheets with too many skipped items, or almost all \"true\" or all \"false\" answers, as invalid (Butcher et al., 2001). CITYTI turns those answer sheets into secret types.",
+   "The cutoffs of 15 and 23 are our own rules of thumb, and normal answering almost never hits them. Picking only the two extremes is also a response style, but it keeps the direction of your answers, so your type still holds and we don't make it a secret type.",
+   "The 10 Easter egg cards hide in your speed, the time of day, the weekend, how many times you play, invite links, pure luck, the language switch and the city mascots themselves. They're just for fun, have nothing to do with personality and never change your result. Each card's unlock steps are in the collection."
+  ]
  },
  "scale": [
   "Not me at all",
@@ -1412,7 +1429,8 @@ window.TI_LANG.en = {
    "tagline": "Between stations, a little bit of every city.",
    "desc": "You picked \"Hard to say\" on {n} questions, and results like that are rare. You're the one with the window seat on the bullet train: up for a crowd at one stop, craving quiet at the next, your mood switching with every city that slides past. You'd feel at home in all sixteen, and you know exactly which car is closest to the dining car. Other people's city passports have one stamp. Yours needed extra pages ages ago.",
    "hint": "Hint: pick \"Hard to say\" on 15+ questions",
-   "unlock": "Ding! Secret type found: High-Speed Rail Nomad"
+   "unlock": "Ding! Secret type found: High-Speed Rail Nomad",
+   "why": "You picked \"Hard to say\" on more than half the questions, so each trait rests on just two or three answers. Matching you to a city from that wouldn't be reliable. Psychologists call this midpoint responding."
   },
   "echo": {
    "breed": "Every-City Fan",
@@ -1420,7 +1438,8 @@ window.TI_LANG.en = {
    "tagline": "This city? Yes. That one? Also yes. All of them!",
    "desc": "You agreed with {n} statements, including a few that flat-out contradict each other. You love a packed crowd and a quiet corner; you plan every minute and also just go with the flow. You want all sixteen cities, and you're not even a little sorry. Your travel list runs from spring to winter, every city on it is true love, and nothing is getting cut. A traveler this greedy is a rare find.",
    "hint": "Hint: agree (\"Kind of me\" / \"Totally me\") on 23+ questions",
-   "unlock": "Ding! Secret type found: Every-City Fan"
+   "unlock": "Ding! Secret type found: Every-City Fan",
+   "why": "Half the questions on each trait are worded in reverse. Agreeing with nearly everything means agreeing with opposite statements, so the scores cancel out and any city we matched you with would be mostly luck. Psychologists call this acquiescence, or yea-saying."
   },
   "rebel": {
    "breed": "Reverse Tourist",
@@ -1428,15 +1447,8 @@ window.TI_LANG.en = {
    "tagline": "If everyone's going, I'm going the other way.",
    "desc": "You disagreed with {n} statements, even pairs that say the exact opposite of each other. Crowded hotspots? No. Quiet corners? Also no. Trendy new openings and old favorites? No and no. You hate being labeled, and no city gets to claim you that easily. Even your result is the off-the-map option. While everyone else queues at the landmark, you're one alley over eating the best noodles in town, and you're not telling a soul.",
    "hint": "Hint: disagree (\"Not me at all\" / \"Not really me\") on 23+ questions",
-   "unlock": "Ding! Secret type found: Reverse Tourist"
-  },
-  "diode": {
-   "breed": "Fire & Ice",
-   "nick": "No Middle Ground",
-   "tagline": "Iced or boiling. Lukewarm is not on the menu.",
-   "desc": "On {n} questions, you went straight for the ends of the scale: totally me, or not me at all. An answer sheet this decisive made our scoring system do a double take. You order drinks extra iced or piping hot, and \"less ice\" has never left your lips. Hotpot? Extra spicy. A city you love? Five trips a year. Nobody ever has to guess what you think: it's all over your face.",
-   "hint": "Hint: on 24+ questions pick only the two extremes, and use both",
-   "unlock": "Ding! Secret type found: Fire & Ice"
+   "unlock": "Ding! Secret type found: Reverse Tourist",
+   "why": "Disagreeing with nearly everything rejects the regular and the reversed questions alike, so the scores cancel out here too. Psychologists call this nay-saying."
   }
  },
  "eggs": {
@@ -1781,6 +1793,9 @@ window.TI_LANG.en = {
   "The origin of the Likert scale: measuring attitudes with graded levels of agreement. CITYTI uses a five-point version, from \"Not me at all\" to \"Totally me.\"",
   "Comparing different numbers of answer options, this study found 5 to 6 to be close to optimal. CITYTI uses 5, balancing accuracy with quick tapping on your phone.",
   "A review of research testing types against dimensions found that personality works like sliding scales, not clear-cut boxes. CITYTI calculates continuous scores first, then matches you to a city, plus the one you're a bit like.",
-  "The Barnum effect: vague, one-size-fits-all descriptions make everyone say \"wow, that's so me.\" CITYTI ties its write-ups to your actual scores, so different scores get different words."
+  "The Barnum effect: vague, one-size-fits-all descriptions make everyone say \"wow, that's so me.\" CITYTI ties its write-ups to your actual scores, so different scores get different words.",
+  "Defines and measures five response styles, including acquiescence, disacquiescence, midpoint and extreme responding, and shows they distort scale scores. CITYTI's 3 secret types match the first three.",
+  "A review of response-style research: where these habits come from, how they bias results and how to handle them.",
+  "The MMPI-2 checks every answer sheet with validity scales and flags ones with too many skipped items, or nearly all \"true\" or all \"false\" answers, as invalid. CITYTI turns those into secret types."
  ]
 };
